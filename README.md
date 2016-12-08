@@ -1,11 +1,15 @@
 ReIndent
 ===
 
-Quickly re-indent file to two or four spaces tabsize.
+Quickly switch indent by tab and space.
 It basically performs:
 
+Indent by tab
  - `View > Indentation > Convert Indentation to Tabs`
- - `View > Indentation > Tab width: 2/4`
+ - `View > Indentation > Tab width: 4`
+
+Indent by space
+ - `View > Indentation > Tab width: 2`
  - `View > Indentation > Convert Indentation to Spaces`
 
 Usage
@@ -13,9 +17,12 @@ Usage
 
 Open command pallete and type: "ReIndent".
 Two options will appear:
- - `ReIndent: to 2`
- - `ReIndent: to 4`
+ - `ReIndent: to tab`
+ - `ReIndent: to space`
+
+Or config short key
+	`{ "keys": ["short_key_here"], "command": "re_indent_to_space_two" }`
+	`{ "keys": ["short_key_here"], "command": "re_indent_to_tab_four" }`
 
 ---
 
-Just search for "ReIndent" in Package Control

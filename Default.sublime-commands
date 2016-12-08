@@ -1,4 +1,4 @@
 [
-    { "caption": "ReIndent: to 2", "command": "re_indent_to_two" },
-    { "caption": "ReIndent: to 4", "command": "re_indent_to_four" }
+    { "caption": "ReIndent: from tab 4 to space 2", "command": "re_indent_to_space_two" },
+    { "caption": "ReIndent: from space 2 to tab 4", "command": "re_indent_to_tab_four" }
 ]
