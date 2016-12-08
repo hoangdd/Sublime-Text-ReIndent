@@ -21,8 +21,8 @@ Two options will appear:
  - `ReIndent: to space`
 
 Or config short key
-	`{ "keys": ["short_key_here"], "command": "re_indent_to_space_two" }`
-	`{ "keys": ["short_key_here"], "command": "re_indent_to_tab_four" }`
+ - `{ "keys": ["short_key_here"], "command": "re_indent_to_space_two" }`
+ - `{ "keys": ["short_key_here"], "command": "re_indent_to_tab_four" }`
 
 ---
 
